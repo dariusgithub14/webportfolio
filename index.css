@@ -5,3 +5,23 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+
+*{
+	font-family: Roboto, sans-serif;
+}
+
+.contact-icon {
+  height: 30px;
+  width: 30px;
+}
+
+#contact-info{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 12px;
+	margin-bottom: 24px;
+	font-size: 20px;
+	text-size-adjust: 20px;
+}
+
