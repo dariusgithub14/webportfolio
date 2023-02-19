@@ -6,13 +6,94 @@
 	box-sizing: border-box;
 }
 
-*{
-	font-family: Roboto, sans-serif;
+#logo{
+	font-family: 'Cairo';
+	font-style: normal;
+	font-weight: 900;
+	font-size: 24px;
+	line-height: 24px;
+	/* identical to box height, or 100% */
+	color: #181717;
 }
 
-.contact-icon {
-  height: 30px;
-  width: 30px;
+.nav-link{
+	font-family: 'Cairo';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 37px;
+
+	color: #0C0B0B;
+}
+
+#home-header{
+	font-family: 'Cairo';
+	font-style: normal;
+	font-weight: 900;
+	font-size: 60px;
+	line-height: 96.54%;
+	/* or 164px */
+
+	text-align: right;
+	color: #0C0B0B;
+}
+
+#home-header-line1{
+	font-family: 'Cairo';
+	font-style: normal;
+	font-weight: 800;
+	font-size: 40px;
+	line-height: 96.54%;
+	/* or 48px */
+
+	text-align: right;
+	color: #0C0B0B;
+
+}
+
+#home-header-line2{
+	font-family: 'Cairo';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 25px;
+	line-height: 96.54%;
+	/* or 29px */
+
+	text-align: right;
+
+	color: #0C0B0B;
+}
+
+#contact-button{
+	font-family: 'Cairo';
+	font-style: normal;
+	font-weight: 900;
+	font-size: 15px;
+	line-height: 37px;
+	text-align: center;
+
+	color: #F9F9F9;
+
+	background: #666666;
+	border-radius: 35px;
+
+
+}
+
+#resume-button, #submit-button{
+	font-family: 'Cairo';
+	font-style: normal;
+	font-weight: 900;
+	font-size: 15px;
+	line-height: 37px;
+	text-align: center;
+
+	color: #F9F9F9;
+
+	background: #666666;
+	border-radius: 35px;
+
+
 }
 
 #contact-info{
@@ -23,5 +104,158 @@
 	margin-bottom: 24px;
 	font-size: 20px;
 	text-size-adjust: 20px;
+
 }
 
+
+#tools-img{
+	height: 50px;
+	width: 50px;
+}
+
+#socials-img{
+
+	height: 35px;
+	width: 35px;
+}
+
+#main-img{
+	height: auto;
+	width: auto;
+}
+
+
+.home-section{
+	background: #F3F3F3;
+}
+
+#projects-header, #aboutMe-header, #contact-header{
+	font-family: 'Cairo';
+	font-style: normal;
+	font-weight: 900;
+	font-size: 60px;
+	line-height: 96.54%;
+	/* or 164px */
+
+	text-align: center;
+	color: #0C0B0B;
+}
+
+#contact-form{
+	box-shadow: 2px 2px 100px rgba(0, 0, 0, 0.2);
+}
+
+#tools-btn{
+	margin: 0.25em;
+	font-family: 'Cairo';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 96.54%;
+	
+
+}
+
+
+#about-img{
+	border-radius: 50%;
+
+}
+
+#about-img-left{
+	text-align: right;
+}
+
+#school-dates, #school-address, #job-description, #work-dates, #about-info{
+	margin: 0.25em;
+	font-family: 'Cairo';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 96.54%;
+	color: #666666;
+	padding-bottom: 3em;
+	
+
+}
+
+
+#school, #company, #position, #course, #school-level, #about-designation{
+	font-family: 'Cairo';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 15px;
+	line-height: 96.54%;
+	/* or 24px */
+
+	text-transform: uppercase;
+
+	color: #0C0B0B;
+}
+
+
+#school-header, #work-header, #about-name{
+	font-family: 'Cairo';
+	font-style: normal;
+	font-weight: 800;
+	font-size: 20px;
+	line-height: 96.54%;
+	/* or 24px */
+
+	text-transform: uppercase;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	color: #0C0B0B;
+}
+
+
+#tech-stack{
+	font-family: 'Cairo';
+	font-style: normal;
+	font-weight: 800;
+	font-size: 20px;
+	line-height: 96.54%;
+	/* or 24px */
+
+	text-transform: uppercase;
+
+	color: white;
+}
+
+#core-tools, #other-tools{
+	font-family: 'Cairo';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 15px;
+	line-height: 96.54%;
+	/* or 24px */
+
+	text-transform: uppercase;
+
+	color: white;
+}
+
+#tech-stack-info{
+	margin: 0.25em;
+	font-family: 'Cairo';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 96.54%;
+	color: white;
+	
+
+}
+
+footer{
+
+	font-family: 'Cairo';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 96.54%;
+	color: #666666;
+	text-decoration: none;
+
+	
+}

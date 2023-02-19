@@ -12,72 +12,67 @@
 	<!-- Google Fonts -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700;900&family=Montserrat:wght@900&family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
 
 
 	<title>Web Developer Portfolio | Capstone 1</title>
 </head>
 
 <body>
-	<div class="bg-white" id="home-section">
+	
 		<!-- Navbar Start -->
-		<!-- <nav class="navbar">
-		   <a href="#home-section">Web Developer Portfolio</a> 
-		   <ul class="nav-links">
-		     <li><a href='#projects-section'>Projects</a></li>
-		     <li><a href="#about-section">About</a></li>
-		     <li><a href="#contact-section">Contact</a></li>
-		     
-		   </ul>
-		 </nav> -->
-
-		 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-		   <a class="navbar-brand" href="#landing-section">Home</a>
-		   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-		     <span class="navbar-toggler-icon"></span>
-		   </button>
-
-		   <div class="collapse navbar-collapse" id="navbarNav">
-		     <ul class="navbar-nav ml-auto">
-		       <li class="nav-item active">
-		         <a class="nav-link" href="#projects-section">Projects<span class="sr-only">(current)</span></a>
-		       </li>
-		       <li class="nav-item">
-		         <a class="nav-link" href="#about-section">About</a>
-		       </li>
-		       <li class="nav-item">
-		         <a class="nav-link" href="#contact-section">Contact</a>
-		       </li>
-		     </ul>
-		   </div>
+		 <nav class="navbar navbar-expand-lg navbar-light" id="navbar">
+		 	<div class="container">
+		 	  <a class="navbar-brand" href="#" id="logo">SDHSE</a>
+		 	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+		 	    <span class="navbar-toggler-icon"></span>
+		 	  </button>
+		 	  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+		 	    <div class="navbar-nav ml-auto">
+		 	      <a class="nav-link" href="#landing-section">HOME</a>
+		 	      <a class="nav-link pr-3" href="#projects-section">PROJECTS</a>
+		 	      <a class="nav-link px-lg-5" href="#contact-section" id="contact-button">CONTACT</a>
+		 	    </div>
+		 	  </div>
+		  	</div>
 		 </nav>
 		<!-- Navbar End -->
 
 		<!-- Landing Section Start -->
-		<div class="container-fluid" id="landing-section">
-            <div class="text-dark row m-5">
-				<div class="bg-white pt-3 col-sm pb-3 order-2 order-sm-1 p-lg-5 border border-dark ">
-					<h1>Hi! I am Saul Darius Hernandez.</h1> 
-					<h2>A Web Developer.</h2>
-					<p>I am a Front-End Web developer located in the Philippines. I like to help start-ups, small businesses and agencies achieve high quality websites and exceptional user interface</p>
-				
-
-				</div>
-				<div class="bg-white pt-3 pb-3 col-sm order-1 order-sm-2">
-					<img src="./images/img1.jpg" class="img-fluid rounded mx-auto" id="main-img">
+		<div class="container my-md-5 py-md-5 py-2 my-sm-5 justify-content-center" id="landing-section">
+            <div class="text-dark row ml-md-5 pl-lg-5 py-lg-5">
+				<div class="col ml-lg-5 pl-lg-5 py-lg-5">
+					<h2 id="home-header-line1" class="">Hi! I am</h2> 
+					<h1 id="home-header" class="mb-2 pb-2">Saul Darius Hernandez</h1> 
+					<p id="home-header-line2" class="pl-lg-5 ml-lg-5">an Electrical Engineer turned into a Full Stack Web developer located in the Philippines. A career shifter who love to help start-ups, small businesses and agencies achieve high quality websites and exceptional user interface.</p>
+					<div class="container-fluid py-5 mr-lg-5 pr-lg-5 " id="socials">
+						<div class="row mr-lg-5 pr-lg-5 justify-content-center">
+							
+								<div class="col-12 text-center mr-md-5 pr-md-4">
+								<a href="" class="mx-2"><img src="./images/linkedinlg-bw.png" id="socials-img"></a>
+								<a href="" class="mx-2"><img src="./images/gmaillg-bw.png" id="socials-img"></a>
+								<a href="" class="mx-2"><img src="./images/githublg-bw.png" id="socials-img"></a>
+								<a href="" class="mx-2"><img src="./images/gitlablg-bw.png" id="socials-img"></a>
+								</div>
+								<div class="col py-3 text-center mr-md-5 pr-md-4">
+									<a href="./images/myCV.pdf" target="_blank" id="resume-button" class="px-4 py-1 mx-3">Read my Résumé</a>
+								</div>
+							
+						</div>
+					</div>
+					
 				</div>
 			</div>
 		</div>
 		<!-- landing Section End -->
 
-
 		<!-- Projects Section Start -->
-		<div class="p-3 pb-5 bg-dark text-light text-center" id="projects-section">
-			<h3>Welcome to my Projects</h3>
-			<p>Here are samples of my finished projects during my software development bootcamp</p>
+		<div class="p-1 pb-5 px-lg-5 justify-content-center" id="projects-section">
+			<h3 id="projects-header">PROJECTS</h3>
+			
 
-			<div class="row d-none d-block mt-md-5 container-fluid">
-				<div class="offset-xl-3 col-xl-6">
+			<!-- <div class="row d-none d-block mt-md-5 container-fluid">
+				<div class="offset-xl-1 col-xl-10 col-sm-12"> -->
 					<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 					  <ol class="carousel-indicators">
 					    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -122,95 +117,240 @@
 					    <span class="sr-only">Next</span>
 					  </button>
 					</div>
-				</div>
-			</div>
+				<!-- </div>
+			</div> -->
 		</div>
 		
 		<!-- Projects Section End -->
 
 
 		<!-- About Section Start -->
-		<div id="about-section" class="container-fluid justify-content-center pt-5">
-			
-				<div class="border border-dark container-fluid text-center">
-					<div class="row justify-content-center">
-						<div class="col-sm-12 col-md-8 col-xl-4">
-							<h2>About Me</h2>
+		<div id="about-section" class="container-fluid justify-content-center py-5">
+			<h2 id="aboutMe-header" class="pb-3">ABOUT</h2>
+			<!-- <img src="./images/img2.jpg" class="img-fluid mx-auto d-block px-md-5 px-3 my-md-3 py-md-3 py-3 mb-5" id="about-img"> -->
+			<div class="container">
+				<div class="row">
 
-							<p>I am a Registered Electrical Engineer and trying to get in to the tech industry. I decided to join the Zuitt Coding Bootcamp to further hone my skills as a web developer. A career shifter passionate to pursue a career as Software Engineer.</p>
-						</div>
+					<div class="col-md-4 col-sm-12 py-xl-5 my-xl-5 mr-md-0 pr-md-0 py-lg-5" id="about-img-left">
+						<h4 class="pt-md-5" id="about-name">Saul Darius Hernandez</h5>
+						<h5 id="about-designation">Electrical Engineer/Software Engineer</h6>
+					</div>
+					<div class="col-md-4 col-sm-12">
+						<img src="./images/img2.jpg" class="img-fluid mx-auto d-block" id="about-img">
+					</div>
 
-
-							<div class="container-fluid">
-							      <h4 class='title'>
-							        You can find me lounging other places around the web
-							      </h4>
-							      <div class="container-fluid bg-white justify-content-center">
-							     
-								      	<div class="row m-3 d-flex" id="contact-info">
-									        <img class='contact-icon' src="images/gitlablg.png" class="img-fluid img-responsive">
-									        <p>Gitlab: 
-									          <a href='https://gitlab.com/sauldariush' target='_blank'>sauldariush</a></p>
-								       </div>
-
-								        <div class="row m-3" id="contact-info">
-								          <img class='contact-icon' src='images/githublg.png' class="img-fluid img-responsive"> 
-								          <p>Gitub: 
-								            <a href='https://github.com/dariusgithub14' target='_blank'>sauldariush</a></p>
-								        </div>
-
-								        <div class="row m-3" id="contact-info">
-								          <img class='contact-icon' src='images/gmaillg.png' class="img-fluid img-responsive">
-								          <p>Gmail: 
-								            <a href='mailto:sauldariush@gmail.com' target='_blank'>sauldariush@gmail.com</a></p>
-								        </div>
-
-								        <div class="row m-3" id="contact-info">
-								          <img class='contact-icon' src='images/fblg.png' class="img-fluid img-responsive">
-								          <p>Facebook: 
-								            <a href='#landing' target='_blank'>Saul Darius Hernandez</a></p>
-								        </div>
-							      </div>
+					<div class="col-md-4 col-sm-12 py-xl-5 my-xl-4 pl-md-0 ml-md-0 py-md-3 py-lg-5 my-lg-2 mt-lg-1 mt-sm-5">
+						<div class="row mt-md-1 mt-sm-5 mt-lg-5 py-xl-2">
+							<div class="col-12">
+								<a href="mailto:sauldariush@gmail.com" target="_blank" id="about-info">sauldariush@gmail.com</a>
+							</div>
+							<div class="col-12">
+								<a href="https://www.linkedin.com/in/sauldariush/" target="_blank" id="about-info">linkedin.com/in/sauldariush</a>
+							</div>
+							<div class="col-12">
+								<a href="dialto:09498830134" id="about-info">0949 883 0134</a>
 							</div>
 						</div>
 					</div>
+					
 				</div>
+				
+				<div class="row">
+					<div class="col">
+						<h6 id="work-header">Professional Experience</h6>
+					</div>
+					
+				</div>
+				<!-- ============= EXPERIENCE 1 START ================= -->
+				<div class="row">
+					<div class="col-md-4 col-sm-12">
+						<h5 id="company">Cross-link Electric & Construction Corp.</h5>
+						<p id="work-dates">July 2019 to Nov 2022</p>
+					</div>
+
+
+					<div class="col-md-8 col-sm-12">
+						<div class="row">
+							<div class="col-12">
+								<h6 id="position">Project In-charge</h6>
+							</div>
+							<div class="col-12 pl-sm-5">
+								<p id="job-description">Participate in the kick-off meetings, commencement, implementation, testing and completion acceptance of construction site. Monitors and maximizes work efficiency and controls. Designates work responsibilities to each Trade/Skilled Supervisor within their expertise and ensures that the group will provide exceptional result within the project timeline. Ensures that all equipment, tools, materials and other miscellaneous needs are prepared prior to commencement of the project. Attends meetings with the general contractor, designer and client to present overall progress of the project.</p>
+								
+							</div>
+
+						</div>
+					</div>
+					
+				</div>
+				<!-- ============= EXPERIENCE 1 END ================= -->
+
+
+				<!-- ============= EXPERIENCE 2 START ================= -->
+
+				<div class="row">
+					<div class="col-md-4 col-sm-12">
+						<h5 id="company">Optimum Equipment Management & Exchange Inc.</h5>
+						<p id="work-dates">Sept 2016 to May 2019</p>
+					</div>
+
+
+					<div class="col-md-8 col-sm-12">
+						<div class="row">
+							<div class="col-12">
+
+								<h6 id="position">Electrical Design and Estimator</h6>
+							</div>
+							<div class="col-12 pl-sm-5">
+								<p id="job-description">Gathers all necessary information based on the clients requirements/specifications. Generates design based on the gathered information from the client to ensure that all parameters shall be met. Provides bill of materials that will complete all the client's requirement. Sourcing out of all needed materials, tools and equipment based on the generated bill of materials that complies on the specified requirements but still ensures that will meet the client's budget.</p>
+							</div>
+
+						</div>
+					</div>
+					
+				</div>
+				<!-- ============= EXPERIENCE 2 END   ================= -->
+
+				<!-- ============= EXPERIENCE 3 START ================= -->
+
+				<div class="row">
+					<div class="col-md-4 col-sm-12">
+						<h5 id="company">Taikisha Philippines Inc.</h5>
+						<p id="work-dates">July 2019 to Nov 2022</p>
+					</div>
+
+
+					<div class="col-md-8 col-sm-12">
+						<div class="row">
+							<div class="col-12">
+								<h6 id="position">Site Engineer/Desgin and Estimate</h6>
+							</div>
+							<div class="col-12 pl-sm-5">
+								<p id="job-description">Attends pre-bid meeting to gather necessary specification required by the client. Designs and estimates based on the provided technical specifications on the pre-bid meeting. Prepares bill of quantity based on the generated estimates. Sourcing out of the specific tools, materials and equipment that qualifies the requirement of the client but is still within the budget.</p>
+								
+							</div>
+
+						</div>
+					</div>
+					
+				</div>
+				<!-- ============= EXPERIENCE 3 END   ================= -->
+
+
+				<div class="row">
+					<div class="col">
+						<h6 id="school-header">Academic History</h6>
+					</div>
+					
+				</div>
+				<!-- ============= SCHOOL 1 START ================= -->
+				<div class="row">
+					<div class="col-md-4 col-sm-12">
+						<h5 id="school">Zuitt</h5>
+						<p id="school-address">Online Course thru zuitt.co website</p>
+					</div>
+
+
+					<div class="col-md-8 col-sm-12">
+						<div class="row">
+							<div class="col-12">
+								<h6 id="school-level">Full Stack Web Developer Course</h6>
+							</div>
+							<div class="col-12 pl-sm-5">
+								<p id="school-dates">Feb 2023 to Mar 2023</p>
+								
+								
+							</div>
+
+						</div>
+					</div>
+					
+				</div>
+				<!-- ============= SCHOOL 1 END ================= -->
+
+				<!-- ============= SCHOOL 2 START ================= -->
+				<div class="row">
+					<div class="col-md-4 col-sm-12">
+						<h5 id="school">Lyceum of the Philippines University - Cavite Campus</h5>
+						<p id="school-address">Governor's Drive, General Trias, Cavite</p>
+					</div>
+
+
+					<div class="col-md-8 col-sm-12">
+						<div class="row">
+							<div class="col-12">
+								<h6 id="school-level">Bachelor's Degree in Electrical Engineering</h6>
+							</div>
+							<div class="col-12 pl-sm-5">
+								<p id="school-dates">June 2009 to May 2014</p>
+							</div>
+
+						</div>
+					</div>
+					
+				</div>
+				<!-- ============= SCHOOL 2 END ================= -->
+
+				<!-- ============= SCHOOL 3 START ================= -->
+				<div class="row">
+					<div class="col-md-4 col-sm-12">
+						<h5 id="school">Imus Institue</h5>
+						<p id="school-address">Nueno Ave., Poblacion, Imus, Cavite</p>
+					</div>
+
+
+					<div class="col-md-8 col-sm-12">
+						<div class="row">
+							<div class="col-12">
+								<h6 id="school-level">High School</h6>
+							</div>
+							<div class="col-12 pl-sm-5">
+								<p id="school-dates">June 2005 to May 2009 </p>
+							</div>
+
+						</div>
+					</div>
+					
+				</div>
+				<!-- ============= SCHOOL 3 END ================= -->
+				
+			</div>
+				
 				<!-- Tools Start -->
 				<div class="pt-3 p-1 d-flex flex-column text-center bg-dark text-light">
-					<h4>Here are the tools that I am using :</h4>
+					<h4 id="tech-stack">My Tech Stack</h4>
+					<p id="tech-stack-info" class="pb-5">Technologies I've been working with recently</p>
 				    <!-- Core Tools Section Start -->
-				    <h5>Core Tools</h5>
+				    <h5 id="core-tools">Core Tools</h5>
 
 				    <div class="p-1 d-flex flex-column">
-				        <div class="p-0 d-flex justify-content-center">
-				            <img src="images/logo-html5.png"/>
-				        </div>
-				        <div class="p-0 d-flex flex-row justify-content-center">
-				            <img src="images/logo-css3.png"/>
-				            <img src="images/logo-javascript.png"/>
+				        <div class="p-1 m-1 d-flex justify-content-center">
+				            <a href="" class="btn btn-outline-secondary" id="tools-btn">HTML</a>
+				            <a href="" class="btn btn-outline-secondary" id="tools-btn">CSS</a>
+				            <a href="" class="btn btn-outline-secondary" id="tools-btn">JavaScript</a>
 				        </div>
 				    </div>
 				    <!-- Core Tools Section End -->
 				    
 				    <!-- Other Tools Section Start -->
-				    <h5>Other Tools</h5>
+				    <h5 id="other-tools">Other Tools</h5>
 
-				    <div class="p-1 d-flex flex-sm-row flex-md-column justify-content-center" id="tools-img">
-				        <div class="p-3v flex-sm-column">
-				            <img src="images/logo-mongodb.png"/>
-				            <img src="images/logo-nodejs.png"/>
-				            <img src="images/logo-expressjs.png"/>
-				            <img src="images/logo-react.png"/>
-				            <img src="images/logo-heroku.png"/>
+				    <div class="p-1 d-flex flex-column justify-content-center">
+				        <div class="p-1 flex-sm-column">
+				            <a href="" class="btn btn-outline-secondary" id="tools-btn">MongoDB</a>
+				            <a href="" class="btn btn-outline-secondary" id="tools-btn">NodeJS</a>
+				         	<a href="" class="btn btn-outline-secondary" id="tools-btn">ExpressJS</a>
+				            <a href="" class="btn btn-outline-secondary" id="tools-btn">React</a>
+				            <a href="" class="btn btn-outline-secondary" id="tools-btn">Heroku</a>
 				        </div>
-				        <div class="mt-3 p-1 flex-sm-column">
-				            <img src="images/logo-git.png"/>
-				            <img src="images/logo-sublime-text-3.png"/>
-				            <img src="images/logo-postman.png"/>
-				            <img src="images/logo-gitlab-ci-cd.png"/>
+				        <div class="p-1 flex-sm-column">
+				        	<a href="" class="btn btn-outline-secondary" id="tools-btn">Git</a>
+				            <a href="" class="btn btn-outline-secondary" id="tools-btn">Sublime Text 3</a>
+				            <a href="" class="btn btn-outline-secondary" id="tools-btn">Postman</a>
+				            <a href="" class="btn btn-outline-secondary" id="tools-btn">Gitlab</a>
 				        </div>
 				    </div>
-					    <!-- Other Tools Section End -->	
+				 <!-- Other Tools Section End -->	
 				</div>
 				<!-- Tools End -->
 		</div>
@@ -219,33 +359,33 @@
 
 		<!-- Contact Section Start -->
 		<div id="contact-section" class="container-fluid text-center justify-content-center mt-3">
-			<h3>Contact Us</h3>
+			<h3 id="contact-header" class="my-5 py-3">Let's make something amazing</h3>
 
-				<div class="container-fluid col-sm-12 col-md-8 col-xl-4 border border-dark pt-3 pb-3 rounded">
-				<form >
+				<div class="container-fluid col-sm-12 col-md-8 col-xl-4 border border-dark pt-3 pb-3 rounded" id="contact-form">
+				<form>
 				  <div class="form-group">
-				    <div class="col mb-3">
+				    <div class="col mb-3 p-0">
 				      <input type="text" class="form-control" placeholder="First name" required>
 				    </div>
-				    <div class="col mb-3">
+				    <div class="col mb-3 p-0">
 				      <input type="text" class="form-control" placeholder="Last name" required>
 				    </div>
-				    <div class="col mb-3">
+				    <div class="col mb-3 p-0">
 				      <input type="text" class="form-control" placeholder="Email Address" required>
 				    </div>
-				    <div class="col mb-3">
+				    <div class="col mb-3 p-0">
 				      <input type="text" class="form-control" placeholder="Contact Number" required>
 				    </div>
 				</div>
 				 <div class="form-group">
-				        <label for="exampleFormControlTextarea1">Message :</label>
-				        <textarea class="form-control" id="exampleFormControlTextarea1" rows="7"></textarea>
+				        
+				        <textarea class="form-control" id="exampleFormControlTextarea1" rows="7" placeholder="Your Message"></textarea>
 				      </div>
-				  <button type="submit" class="btn btn-primary">Submit</button>
+				  <button type="submit" id="submit-button" class="px-5">Submit</button>
 				</form>
 
 
-				
+
 		</div>
 		<!-- Contact Section End -->
 	</div>
