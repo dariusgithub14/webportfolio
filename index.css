@@ -259,3 +259,24 @@ footer{
 
 	
 }
+
+#project-id{
+	font-family: 'Cairo';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 15px;
+	line-height: 96.54%;
+	/* or 24px */
+
+	text-transform: uppercase;
+}
+
+#project-description{
+	margin: 0.25em;
+	font-family: 'Cairo';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 96.54%;
+	
+}
